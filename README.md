@@ -10,8 +10,8 @@ This script checks for updates to Chicken's YouTube video and automatically post
 ### command
     pip3 install feedparser
 
-# Edit File
-You need to input your Twitter API Key 
+# Before run
+You need to insert the Twitter API key in the specified location in the file.
 
 # How to Run
 It works automatically when you run main.py. You must register with Cron to check for updates on a regular basis.
