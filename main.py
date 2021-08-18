@@ -1,8 +1,7 @@
 #!/usr/bin/env python3
 # coding: utf-8
 
-# rss更新確認スクリプト
-
+# rss Update Checker
 import feedparser
 import pprint
 import time
@@ -10,6 +9,7 @@ import tweepy
 import json
 import os
 
+# RSS
 url = 'https://www.youtube.com/feeds/videos.xml?channel_id=UCrM-4squf6A8iinZM1Li0Ig' # ちきんのYouTube RSS
 feed = feedparser.parse(url)
 subject = feed.entries[0].title
@@ -25,17 +25,17 @@ if os.path.exists(local_path):
 if (old_up != new_up):
     with open(local_path, mode='w') as f:
         f.write(new_up)
-    # 更新があれば以下を実行
-    # とりあえず画面に表示しておきますか
+    # Update Found
     print("\n", subject)
-    # Twitter連携
+    # Connect Twitter
+    # ---Input your API Key---
     consumer_key ="xxxx"
     consumer_secret ="xxxx"
     access_token="xxxx"
     access_token_secret ="xxxx"
-    # オブジェクト生成
+    # Create Object
     auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
     auth.set_access_token(access_token, access_token_secret)
     api = tweepy.API(auth)
-    # ツイート内容
+    # Tweet Content
     api.update_status("ちきんが動画を更新しました(test∞):" + subject + "URL: " + urls)
