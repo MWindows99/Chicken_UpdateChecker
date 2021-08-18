@@ -10,7 +10,8 @@ import json
 import os
 
 # RSS
-url = 'https://www.youtube.com/feeds/videos.xml?channel_id=UCrM-4squf6A8iinZM1Li0Ig' # ちきんのYouTube RSS
+# ---Input youtube RSS URL---
+url = 'https://www.youtube.com/feeds/videos.xml?channel_id=UCrM-4squf6A8iinZM1Li0Ig'
 feed = feedparser.parse(url)
 subject = feed.entries[0].title
 urls = feed.entries[0].link
