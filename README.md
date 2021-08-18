@@ -2,7 +2,7 @@
 This script checks for updates to Chicken's YouTube video and automatically posts any updates on Twitter.
 
 # Who is Chicken
-[]()
+[@chickenkundayo](https://twitter.com/chickenkundayo)
 
 # Need to Install
 ## tweepy
