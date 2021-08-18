@@ -38,4 +38,4 @@ if (old_up != new_up):
     auth.set_access_token(access_token, access_token_secret)
     api = tweepy.API(auth)
     # Tweet Content
-    api.update_status("ちきんが動画を更新しました(test∞):" + subject + "URL: " + urls)
+    api.update_status("ちきんが動画を更新しました:" + subject + "URL: " + urls)
