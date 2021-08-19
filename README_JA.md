@@ -9,11 +9,11 @@ Twitter：[@chickenkundayo](https://twitter.com/chickenkundayo)
 # 必要なライブラリ
 ## tweepy
 ### コマンド
-  pip3 install tweepy
+    pip3 install tweepy
   
 ## feedparser
 ### コマンド
-  pip3 install feedparser
+    pip3 install feedparser
 
 # 実行前に
  - TwitterAPIキーをファイル内の指定された場所に書き加える必要があります。
