@@ -16,7 +16,9 @@ Twitter:[@chickenkundayo](https://twitter.com/chickenkundayo)
     pip3 install feedparser
 
 # Before run
-You need to insert the Twitter API key in the specified location in the file.
+ - You need to insert the Twitter API key in the specified location in the file.
+
+ - Execute it in a directory to which you have write permission.
 
 # How to Run
 It works automatically when you run main.py. You must register with Cron to check for updates on a regular basis.
