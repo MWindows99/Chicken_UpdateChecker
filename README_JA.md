@@ -4,7 +4,7 @@
 # ちきんは誰ですか
 ちきんはとてもかわいい男の子です。
 
-Twitter：[@chickenkundayo]()
+Twitter：[@chickenkundayo](https://twitter.com/chickenkundayo)
 
 # 必要なライブラリ
 ## tweepy
