@@ -1,4 +1,6 @@
 # Chicken_UpdateChecker
+Can't read English? Please check Japanese edition: [ReadMe_JA](README_JA.md)
+
 This script checks for updates to Chicken's YouTube video and automatically posts any updates on Twitter.
 
 # Who is Chicken
