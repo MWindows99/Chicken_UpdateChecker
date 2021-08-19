@@ -1,7 +1,7 @@
 # Chicken_UpdateChecker
 このスクリプトは、ChickenのYouTubeビデオの更新をチェックし、更新をTwitterに自動的に投稿します。
 
-# りきんは誰ですか
+# ちきんは誰ですか
 ちきんはとてもかわいい男の子です。
 
 Twitter：[@chickenkundayo]()
