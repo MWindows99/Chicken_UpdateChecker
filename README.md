@@ -10,10 +10,16 @@ Twitter:[@chickenkundayo](https://twitter.com/chickenkundayo)
 
 # Need to Install
 ## tweepy
-    pip3 install tweepy
+
+```
+pip3 install tweepy
+```
 
 ## feedparser
-    pip3 install feedparser
+
+```
+pip3 install feedparser
+```
 
 # Before run
  - You need to insert the Twitter API key in the specified location in the file.
@@ -24,6 +30,8 @@ Twitter:[@chickenkundayo](https://twitter.com/chickenkundayo)
 It works automatically when you run main.py. You must register with Cron to check for updates on a regular basis.
 
 ## Example
-In the example below, it runs every 3 hours
-’’’
-    * */3 * * * python3 /var/USER/main.py
+In the example below, it runs every 3 hours.
+
+``` 
+* */3 * * * python3 /var/USER/main.py
+```
