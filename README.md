@@ -10,11 +10,9 @@ Twitter:[@chickenkundayo](https://twitter.com/chickenkundayo)
 
 # Need to Install
 ## tweepy
-### command
     pip3 install tweepy
 
 ## feedparser
-### command
     pip3 install feedparser
 
 # Before run
@@ -25,3 +23,7 @@ Twitter:[@chickenkundayo](https://twitter.com/chickenkundayo)
 # How to Run
 It works automatically when you run main.py. You must register with Cron to check for updates on a regular basis.
 
+## Example
+In the example below, it runs every 3 hours
+’’’
+    * */3 * * * python3 /var/USER/main.py
