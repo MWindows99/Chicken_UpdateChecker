@@ -8,12 +8,16 @@ Twitter：[@chickenkundayo](https://twitter.com/chickenkundayo)
 
 # 必要なライブラリ
 ## tweepy
-### コマンド
-    pip3 install tweepy
+
+```
+pip3 install tweepy
+```
   
 ## feedparser
-### コマンド
-    pip3 install feedparser
+
+```
+pip3 install feedparser
+```
 
 # 実行前に
  - TwitterAPIキーをファイル内の指定された場所に書き加える必要があります。
@@ -21,3 +25,9 @@ Twitter：[@chickenkundayo](https://twitter.com/chickenkundayo)
 
 # 実行方法
 main.pyを実行すると自動的に動作します。 定期的に更新を確認するには、Cronに登録する必要があります。
+
+## 例
+以下の例では3時間おきに実行しています。
+
+```
+```
