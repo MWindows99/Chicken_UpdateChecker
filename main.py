@@ -40,3 +40,5 @@ if (old_up != new_up):
     api = tweepy.API(auth)
     # Tweet Content
     api.update_status("ちきんが動画を更新しました:" + subject + "URL: " + urls)
+else:
+    print("Updates is not found.")
