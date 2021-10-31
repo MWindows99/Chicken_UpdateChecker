@@ -3,10 +3,7 @@
 
 # rss Update Checker
 import feedparser
-import pprint
-import time
 import tweepy
-import json
 import os
 
 # RSS
