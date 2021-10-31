@@ -33,5 +33,5 @@ It works automatically when you run main.py. You must register with Cron to chec
 In the example below, it runs every 3 hours.
 
 ``` 
-* */3 * * * python3 /var/USER/main.py
+* */3 * * * python3 /home/USER/main.py
 ```
