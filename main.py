@@ -38,4 +38,4 @@ if (old_up != new_up):
     # Tweet Content
     api.update_status("ちきんが動画を更新しました:" + subject + "URL: " + urls)
 else:
-    print("Updates is not found.")
+    print("Update is not found.")
